@@ -1,13 +1,11 @@
 // Leia o peso (kg) e a altura (m) e calcule o IMC = peso ÷ altura², com 2 casas.
 
-// recebe os valores
-const peso: number = Number(prompt("Digite o seu peso em kg"));
+
+const peso: number = Number(prompt("Digite o seu peso em kg") ?? "0");
 const alturaMetro: number = Number(
-  prompt("Digite sua altura em metros (1.75 por exemplo)")
+  prompt("Digite sua altura em metros (1.75 por exemplo)") ?? "0"
 );
 
-// calcula o IMC
-const imc: number = peso / (altura * altura);
+const imc: number = peso / (alturaMetro * alturaMetro);
 
-// retorna o valor em duas casas decimais
-alert(imc);
+alert(imc.toFixed(2));

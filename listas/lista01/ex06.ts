@@ -1,8 +1,8 @@
 // Leia a base e a altura de um retângulo e mostre a área.
 
 // recebe a base e altura do retângulo
-const base: number = Number(prompt("qual a base do retângulo?"));
-const altura: number = Number(prompt("qual a altura do retângulo?"));
+const base: number = Number(prompt("qual a base do retângulo?") ?? "0");
+const altura: number = Number(prompt("qual a altura do retângulo?") ?? "0");
 
 // calcula a área
 const area: number = base * altura;

@@ -1,5 +1,5 @@
 // Leia um total de segundos e mostre em horas, minutos e segundos.
-const totalSeg = Number(pront("Digite o total de segundos: "));
+const totalSeg = Number(prompt("Digite o total de segundos: "));
 
 const horas = Math.floor(totalSeg/3600);
 const restoHoras = totalSeg % 3600;

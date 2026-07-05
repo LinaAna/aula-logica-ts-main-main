@@ -1,6 +1,7 @@
-let idade = Number(prompt("Digite sua idade: "));
-if(idade >= 18){
+let idade = Number(prompt("Digite sua idade: ") ?? "0");
+
+if (idade >= 18) {
     alert("Maior de idade");
-}else{
+} else {
     alert("Menor de idade");
 }

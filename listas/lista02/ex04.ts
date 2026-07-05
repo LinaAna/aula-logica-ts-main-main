@@ -1,6 +1,7 @@
-let n = Number(prompt("Digite um número: "));
-if(n >= 0){
-    alert(n + "Positivo");
-}else{
-    alert(n + "Negativo");
+let n = Number(prompt("Digite um número: ") ?? "0");
+
+if (n >= 0) {
+    alert(n + " é Positivo");
+} else {
+    alert(n + " é Negativo");
 }
