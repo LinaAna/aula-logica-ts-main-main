@@ -1,11 +1,13 @@
-let idade = Number(prompt("Qual a sua idade? ") ?? "0");
+//edad = idade em filipino
 
-if (idade <= 11) {
+let edad = Number(prompt("Qual a sua idade? ") ?? "0");
+
+if (edad <= 11) {
     alert("criança");
-} else if (idade <= 17) {
+} else if (edad <= 17) {
     alert("adolescente");
-} else if (idade <= 59) {
-    alert("adulto");
+} else if (edad <= 59) {
+    alert("adulto");    
 } else {
     alert("idoso");
 }

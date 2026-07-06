@@ -1,4 +1,4 @@
-let quantos = Number(prompt("Quantos números vai digitar?") ?? "0");
+let quanto = Number(prompt("Quantos números vai digitar?") ?? "0");
 // Inicializa o maior com o primeiro número digitado
 let maior = Number(prompt("Digite o 1º número:") ?? "0");
 

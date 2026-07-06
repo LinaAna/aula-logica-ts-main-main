@@ -1,12 +1,12 @@
-let n = Number(prompt("Digite o tamanho do lado do quadrado:") ?? "0");
-let msg = "";
+let pares = Number(prompt("Digite o tamanho do lado do quadrado:") ?? "0");
+let zap = "";
 
-for (let i = 1; i <= n; i++) {
+for (let i = 1; i <= pares; i++) {
     let linha = "";
-    for (let j = 1; j <= n; j++) {
+    for (let j = 1; j <= pares; j++) {
         linha = linha + "*";
     }
-    msg = msg + linha + "\n";
+    zap = zap + linha + "\n";
 }
 
-alert(msg);
+alert(zap);

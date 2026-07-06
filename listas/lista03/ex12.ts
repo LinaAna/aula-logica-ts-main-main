@@ -1,10 +1,10 @@
-let n = Number(prompt("Digite o valor de N:") ?? "0");
-let msg = "";
+let acumulador = Number(prompt("Digite o valor de N:") ?? "0");
+let sms = "";
 
 for (let i = 1; i <= n; i++) {
     if (i % 2 !== 0) {
-        msg = msg + i + " ";
+        sms = sms + i + " ";
     }
 }
 
-alert(msg);
+alert(sms);

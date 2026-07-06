@@ -1,12 +1,12 @@
-let n = Number(prompt("Digite o número de linhas da pirâmide:") ?? "0");
-let msg = "";
+let nm = Number(prompt("Digite o número de linhas da pirâmide:") ?? "0");
+let msgs = "";
 
 for (let i = 1; i <= n; i++) {
     let linha = "";
     for (let j = 1; j <= i; j++) {
         linha = linha + i + " ";
     }
-    msg = msg + linha + "\n";
+    msgs = msgs + linha + "\n";
 }
 
-alert(msg);
+alert(msgs);

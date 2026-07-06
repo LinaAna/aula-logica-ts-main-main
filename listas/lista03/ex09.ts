@@ -1,10 +1,10 @@
 let quantas = Number(prompt("Quantas notas?") ?? "0");
-let soma = 0;
+let sm = 0;
 
 for (let i = 1; i <= quantas; i++) {
     let nota = Number(prompt(`Digite a ${i}ª nota:`) ?? "0");
-    soma = soma + nota;
+    sm = sm + nota;
 }
 
-let media = soma / quantas;
-alert(`média ${media.toFixed(1)}`);
+let md = sm / quantas;
+alert(`média ${md.toFixed(1)}`);

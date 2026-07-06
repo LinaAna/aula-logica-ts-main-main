@@ -1,9 +1,9 @@
-let n = Number(prompt("Digite N para a contagem regressiva:") ?? "0");
-let msg = "";
+let contagem = Number(prompt("Digite N para a contagem regressiva:") ?? "0");
+let men = "";
 
-for (let i = n; i >= 1; i--) {
-    msg = msg + i + " ";
+for (let i = contagem; i >= 1; i--) {
+    men = men + i + " ";
 }
 
-msg = msg + "🚀";
-alert(msg);
+men = men + "🚀";
+alert(men);

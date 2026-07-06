@@ -1,10 +1,12 @@
-let idade = Number(prompt("Digite a idade: ") ?? "0");
+//iminyaka = idade em Zulu
 
-if (idade <= 11) {
+let iminyaka = Number(prompt("Digite a iminyaka: ") ?? "0");
+
+if (iminyaka <= 11) {
     alert("criança");
-} else if (idade <= 17) {
+} else if (iminyaka <= 17) {
     alert("adolescente");
-} else if (idade <= 59) {
+} else if (iminyaka <= 59) {
     alert("adulto");
 } else {
     alert("idoso");

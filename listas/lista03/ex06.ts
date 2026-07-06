@@ -1,13 +1,13 @@
-let nome = prompt("Digite o nome:") ?? "";
+let no = prompt("Digite o nome:") ?? "";
 let vezes = Number(prompt("Quantas vezes repetir?") ?? "0");
-let msg = "";
+let zup = "";
 
 for (let i = 1; i <= vezes; i++) {
     if (i === vezes) {
-        msg = msg + nome;
+        zup = zup + no;
     } else {
-        msg = msg + nome + " / ";
+        zup = zup + no + " / ";
     }
 }
 
-alert(msg);
+alert(zup);

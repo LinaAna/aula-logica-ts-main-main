@@ -1,5 +1,5 @@
-let a = Number(prompt("Digite um número: ") ?? "0");
-let b = Number(prompt("Digite um número: ") ?? "0");
+let a2 = Number(prompt("Digite um número: ") ?? "0");
+let b2 = Number(prompt("Digite um número: ") ?? "0");
 
 if (a > b) {
     alert(a + " é maior");
