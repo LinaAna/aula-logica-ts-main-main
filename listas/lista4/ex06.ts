@@ -1,8 +1,11 @@
-ex01-primeiro-ultimo.ts
+let nums = [4, 11, 8, 13, 20, 5];
+let qtdPares = 0;
 
-let nomes = ["João", "Maria", "Pedro", "Lúcia"];
-let primeiro = nomes[0];
-let ultimo = nomes[nomes.length - 1];
+for (let i = 0; i < nums.length; i++) {
+    if (nums[i] % 2 === 0) {
+        qtdPares++;
+    }
+}
 
-alert("Primeiro: " + primeiro + "\nÚltimo: " + ultimo);
+alert(qtdPares + " pares");
 
