@@ -23,4 +23,3 @@ function temNumero(texte) {
                                                                                 let motDePasse = prompt("Crie uma senha:");
 
                                                                                 alert(senhaForte(motDePasse));
-}
