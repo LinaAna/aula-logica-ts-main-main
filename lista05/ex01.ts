@@ -1,4 +1,4 @@
-function saudacao(nom) {
+function saudacao(nom2l) {
         alert("Olá, " + nom + "! Bem-vindo(a).");
         }
 
