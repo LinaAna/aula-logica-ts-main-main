@@ -5,4 +5,4 @@ for (let i = 0; i < nums.length; i++) {
     dobrados.push(nums[i] * 2);
 }
 
-alert("Dobrado: " + dobrados.join(", "));
+alert("Dobrado: " + dobrados.join(", "))
